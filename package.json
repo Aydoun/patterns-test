@@ -1,0 +1,29 @@
+{
+  "name": "patterns-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "dev": "tsc --watch && node dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aydoun/patterns-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aydoun/patterns-test/issues"
+  },
+  "homepage": "https://github.com/Aydoun/patterns-test#readme",
+  "devDependencies": {
+    "@types/node": "^13.5.1",
+    "mocha": "^7.0.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/mocha": "^5.2.7"
+  }
+}
