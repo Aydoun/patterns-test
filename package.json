@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Aydoun/patterns-test#readme",
   "devDependencies": {
     "@types/node": "^13.5.1",
+    "expect": "^25.1.0",
     "mocha": "^7.0.1",
     "typescript": "^3.7.5"
   },
